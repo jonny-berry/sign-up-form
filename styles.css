@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin: 0;
+  height: 100vh;
+}
+
+#left-container {
+  display: grid;
+  grid-column: 1 / 2;
+  background-image: url(images/background-image.avif);
+  background-position: center;
+  background-size: 100vh;
+}
+
+#right-container {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr;
+  grid-column: 2 / 3;
+  background-color: #0a0a0a;
+}
