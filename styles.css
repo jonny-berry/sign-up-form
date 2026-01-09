@@ -10,7 +10,7 @@ body {
 #left-container {
   display: grid;
   grid-column: 1 / 2;
-  background-image: url(images/syuhei-inoue-kaoHI0iHJPM-unsplash.jpg);
+  background-image: url(images/background-image.jpg);
   background-position: center 10%;
   background-size: 100vh;
   background-position: center;
@@ -112,6 +112,29 @@ body {
   align-self: end;
 }
 
+#first-name {
+  display: grid;
+  grid-area: 3 / 1 / 4 / 2;
+}
+#last-name {
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+#email {
+  display: grid;
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+#phone-number {
+  display: grid;
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+#password {
+  display: grid;
+  grid-area: 7 / 1 / 8 / 2;
+}
 #sign-up-form > input {
   border: 1px solid rgba(0, 0, 0, 0.309);
   border-radius: 0.25rem;
