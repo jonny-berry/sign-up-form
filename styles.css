@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1.6fr;
   margin: 0;
   height: 100vh;
   font-family: 'Roboto';
@@ -10,14 +10,55 @@ body {
 #left-container {
   display: grid;
   grid-column: 1 / 2;
-  background-image: url(images/background-image.avif);
+  background-image: url(images/syuhei-inoue-kaoHI0iHJPM-unsplash.jpg);
+  background-position: center 10%;
+  background-size: 100vh;
   background-position: center;
   height: 100vh;
 }
 
+#visit-japan {
+  background-color: rgba(0, 0, 0, 0.734);
+  height: 20%;
+  margin-top: 20%;
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+}
+
+#visit-japan-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+#visit-japan-text > p,
+#visit-japan-text > h1 {
+  font-family: 'Bebas Neue';
+  color: white;
+  margin: 0;
+  align-self: start;
+}
+
+#visit-japan-text > p {
+  font-size: 1.5rem;
+}
+
+#visit-japan-text > h1 {
+  font-size: 4rem;
+}
+
+#visit-japan > img {
+  display: grid;
+  width: 60%;
+  justify-self: center;
+  align-self: center;
+}
+
 #right-container {
   display: grid;
-  grid-template: 33% 33% 33% / 1fr;
+  grid-template: 27.5% 45% 27.5% / 1fr;
   grid-column: 2 / 3;
   background-color: #f9fafb;
   height: 100vh;
@@ -51,7 +92,7 @@ body {
   gap: 2% 6vw;
   grid-area: 2 / 1 / 3 / 2;
   background-color: white;
-  padding: 5% 25% 5% 5%;
+  padding: 5% 25% 7% 5%;
   box-shadow: 5px 25px 7vh 0.5vh rgba(0, 0, 0, 0.137);
   z-index: 1;
   align-items: center;
@@ -92,7 +133,7 @@ body {
 }
 
 #form-button {
-  background-color: #596d48;
+  background-color: #60AB91;
   border: none;
   color: white;
   font-size: 1rem;
@@ -100,8 +141,10 @@ body {
   border-radius: 0.25rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin-bottom: 3%;
+  cursor: pointer;
 }
 
 #bottom-wrapper > p > span {
   color: #596d48;
+  cursor: pointer;
 }
